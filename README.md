@@ -1,31 +1,30 @@
-** База данных располагается в легковесном файле db.sqlite3 в корне проекта
+# Rekruto CRUD App
 
-** Используйте Python 3.9+
+Дефолтная база данных располагается в легковесном файле `db.sqlite3` в корне проекта.
 
-** Установите все необходимые зависимости командой:
-pip install -r requirements.txt
-
-** Никаких миграций не требуется, поэтому просто запускаем проект:
-python manage.py runserver
-
-** Проект корректно отображает имя и сообщение в индекс-странице, но также можно не передавать параметры в URL при get-запросе. Сделана кастомная 404 страница с редиректом на индекс для удобства.
-
-** Поднимаем локально и переходим по ссылке:
+- Используйте `Python 3.9+`
+- Создайте виртуальное окружение или используйте окружение текущего пользователя *(не рекомендуется)*
+- Установите все необходимые зависимости командой:
+`pip install -r requirements.txt`
+- Никаких миграций не требуется, поэтому просто локально запустите проект:
+`python manage.py runserver`
+- **Перейдите по ссылке:**
 http://127.0.0.1:8000/?name=Rekruto&message=Давай+дружить
 
+> Проект корректно отображает имя и сообщение на индекс-странице, но также можно не передавать параметры в URL при GET-запросе. Реализована кастомная 404 страница с редиректом на индекс для удобства.
 
+## en
+Default low-size database file `db.sqlite3` locate in root project folder.
 
-** Database file db.sqlite3 locate in root project folder
-
-** Use Python 3.9+ for run this project
-
-** Install all needed requirements via command:
-pip install -r requirements.txt
-
-** No need any migrations, so that just run project via command:
-python manage.py runserver
-
-** The project correctly show name and message on index page, but we also can pass URL params while send GET request. Custom 404 'Not Found' page was made with redirect on index page for more usability.
-
-** Configure serve locally and go to the link:
+- Use `Python 3.9+` for run this project
+- Create virtual environment or use global environment of current user *(not recommended)*
+- Install all neccesary requirements via command:
+`pip install -r requirements.txt`
+- No need any migrations, so that just run project locally via command:
+`python manage.py runserver`
+- **Go to the link:**
 http://127.0.0.1:8000/?name=Rekruto&message=Давай+дружить
+
+> The project correctly show name and message on index page, but we also can pass URL params while send GET request. Custom 404 'Not Found' page was made with redirect on index page for more usability.
+
+
