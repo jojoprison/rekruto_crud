@@ -6,7 +6,9 @@
 - Создайте виртуальное окружение или используйте окружение текущего пользователя *(не рекомендуется)*
 - Установите все необходимые зависимости командой:
 `pip install -r requirements.txt`
-- Никаких миграций не требуется, поэтому просто локально запустите проект:
+- Выполняем стартовые миграции:
+`python manage.py migrate`
+- Локально запускаем проекте:
 `python manage.py runserver`
 - **Перейдите по ссылке:**
 http://127.0.0.1:8000/?name=Rekruto&message=Давай+дружить
@@ -20,7 +22,9 @@ Default low-size database file `db.sqlite3` locate in root project folder.
 - Create virtual environment or use global environment of current user *(not recommended)*
 - Install all neccesary requirements via command:
 `pip install -r requirements.txt`
-- No need any migrations, so that just run project locally via command:
+- Run initial migrations:
+`python manage.py migrate`
+- Run project locally via command:
 `python manage.py runserver`
 - **Go to the link:**
 http://127.0.0.1:8000/?name=Rekruto&message=Давай+дружить
