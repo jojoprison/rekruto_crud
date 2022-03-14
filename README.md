@@ -20,7 +20,7 @@ Default low-size database file `db.sqlite3` locate in root project folder.
 
 - Use `Python 3.9+` for run this project
 - Create virtual environment or use global environment of current user *(not recommended)*
-- Install all neccesary requirements via command:
+- Install all necessary requirements via command:
 `pip install -r requirements.txt`
 - Run initial migrations:
 `python manage.py migrate`
